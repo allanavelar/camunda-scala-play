@@ -1,5 +1,5 @@
 GET /   controllers.Application.index
 
-GET /loan-approval/:amount   controllers.Application.startLoanApprovalProcess(amount: Int)
+POST /loan-approval/:amount   controllers.Application.startLoanApprovalProcess(amount: Int)
 
 
